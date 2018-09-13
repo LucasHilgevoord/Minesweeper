@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+header {
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 10px red;
+  height: 5em;
+  padding: 0.4em;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 10px;
+}
+
+body
+{
+    position: fixed;
+    overflow-y: scroll;
+    /*width: 100%; */
+}
+
+html {
+	background-image: url(http://efdreams.com/data_images/dreams/paper/paper-12.jpg);
+	background-size: cover; /*covert de hele pagina met een plaatje */
+	background-attachment: fixed; /*Laat de background staan */
+  width: 50%;
+  margin: 0 30% 0;
+  text-align: center;
+}
+
+#canvas {
+	 border: 2px black solid;
+ 	 background-color: lightgray;
+}
